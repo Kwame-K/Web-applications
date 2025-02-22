@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CrowdAgri</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link rel="icon" href="icone.jpg"/>
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="js/log_sign.js" type="text/javascript"></script>
+
+
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  </head>
+  <body>
+<!--La barre de nagivation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">CrowdAgri by Kris</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#"><span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="start_project.html">Demarrer un projet</a>
+          <a class="nav-item nav-link" href="#">Recherche <i class="fas fa-search"></i></a>
+          <a class="nav-item nav-link" href="login.html">Connexion</a>
+        </div>
+      </div>
+    </nav>
+<hr>
+<!--Le contenu-->
+<div class="container-fluid" >
+  <div class="row">
+    <div class="col">
+<h4><p class="text-center">Bienvenue sur CrowdAgri votre plateforme de financement participatif (crowdfunding).</p></h4>
+     <h6><p class="text-center">Ici vos idées de projet et vos désirs d'accompagner ou de faire oeuvres utiles trouvent un sens.</p></h6>
+    </div>
+  </div>
+
+  <hr>
+  <div class="row">
+    <div class="col-lg-9">
+
+      <div class="card" style="margin-bottom:15px;border-radius:10px;">
+      <img src="https://www.touteleurope.eu/fileadmin/_TLEv3/agriculture/FEADER-680.jpg" alt="Avatar" id="pipo" style="height:80%;width:100%;">
+<div class="container">
+  <div class="row" style="margin-top:20px;margin-bottom:15px;">
+  <div class="col lg={3} sm={3}">
+        <div class="card  mb-3 border-primary">
+        <div class="card-body mx-auto">
+        <p class="card-text">Budget</p>
+       </div>
+         <div class="card-footer "><p class="text-center"  id="budget" >Chargement...</p></div>
+       </div>
+      </div>
+      <div class="col lg={3} sm={3}">
+      <div class="card  mb-3 border-primary">
+      <div class="card-body mx-auto">
+      <p class="card-text">Investir</p>
+     </div>
+       <div class="card-footer "><button type="button" class="btn btn-default btn-block"  onclick="location.href = 'investir.html';"><i class="fa fa-money" aria-hidden="false"></i></button></div>
+     </div>
+    </div>
+    <div class="col lg={3} sm={3}" id="StatsAgence">
+      <div class="card  mb-3 border-primary">
+      <div class="card-body mx-auto">
+      <p class="card-text">Total investi</p>
+     </div>
+       <div class="card-footer "><p class="text-center"  id="somme_r" >Chargement...</p></div>
+     </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="row">
+<div class="col">
+<h3>Description</h3>
+
+<p style="margin-top:20px;">
+
+  Le projet de production de tomate sous serre est d’une grande innovation avec des équipements importés des pays européens dont l’installation exige une grande expertise en matière d’irrigation et de normes de production maraîchère.
+  Un système d’irrigation en goutte-à-goutte est nécessaire avec une régulation sous contrôle de température en fonction des exigences climato-pédologiques.
+  les objectifs recherchés à travers ce projet de tomate visent à :
+
+Produire la tomate dans des conditions optimales en termes de rendements et de qualité ;
+Offrir sur le marché des produits frais de tomate, sains et de bonne qualité pendant toute l’année ;
+Contribuer à diversifier les sources de revenus, facteurs d’accroissement des revenus individuels des promoteurs et de la contribution du secteur rural dans le revenu global (PIB) du pays ;
+
+</p>
+</div>
+      </div>
+
+<hr>
+<div class="">
+
+
+</div>
+<hr>
+
+    </div>
+    <div class="verticalLine" style="border-left:solid gray;"></div>
+    <div class="col lg={3} sm={3}">
+
+      <h4><p class="text-center" style="color:green;">Identité du projet</p></h4>
+      <hr>
+      <p>
+        <ul style="list-style-type: none;">
+      <li>  Nom <p id="a1">Chargement...</p></li>
+      <li>Premon <p id="a2">Chargement...</p></li>
+      <li>  Contact <p id="a3">Chargement...</p></li>
+      <li>  Email <p id="a4">Chargement...</p></li>
+      </ul>
+
+      <ul style="list-style-type: none;">
+    <li>Nom du projet <p id="a5">Chargement...</p></li>
+    <li>Budget <p id="a6">Chargement...</p></li>
+    </ul>
+      </p>
+</div>
+</div>
+<hr>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small cyan darken-3">
+
+    <!-- Footer Elements -->
+    <div class="container-fluid">
+
+      <!-- Grid row-->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="index.html/"> CrowdAgri.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
